@@ -4,7 +4,7 @@ public class Location {
 
 	private String name;
 	private int locationId;
-	private int description;
+
 
 	public String getName() {
 		return name;
@@ -22,14 +22,7 @@ public class Location {
 		this.locationId = locationId;
 	}
 
-	public int getDescription() {
-		return description;
-	}
 
-	public void setDescription(int description) {
-		this.description = description;
-	}
-	
 	
 	
 }
